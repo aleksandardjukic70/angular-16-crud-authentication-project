@@ -1,0 +1,209 @@
+{
+  "associate": [
+    {
+      "id": 1,
+      "name": "Nikola Nikolic",
+      "email": "nnikolic@mail.com",
+      "phone": "0612345678",
+      "associategroup": "level1",
+      "address": "Gandijeva 123",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Nikola Nikolic",
+      "email": "nnikolic@mail.com",
+      "phone": "0612345678",
+      "associategroup": "level1",
+      "address": "Gandijeva 123",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 5,
+      "name": "Nikola Nikolic",
+      "email": "nnikolic@mail.com",
+      "phone": "0612345678",
+      "associategroup": "level1",
+      "address": "Gandijeva 123",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 6,
+      "name": "Nikola Nikolic",
+      "email": "nnikolic@mail.com",
+      "phone": "0612345678",
+      "associategroup": "level1",
+      "address": "Gandijeva 123",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 7,
+      "name": "Aleksa Aleksic",
+      "email": "aaleksic@mail.com",
+      "phone": "123456546546",
+      "associategroup": "level1",
+      "address": "Omladinskih Brigada 11",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 8,
+      "name": "Aleksa Aleksic",
+      "email": "aaleksic@mail.com",
+      "phone": "123456546546",
+      "associategroup": "level1",
+      "address": "Omladinskih Brigada 11",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": 9,
+      "name": "Luka ",
+      "email": "luka@mail.com",
+      "phone": "1233534523",
+      "associategroup": "level1",
+      "address": "Jurija Gagarina 115",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 10,
+      "name": "Aleksandar Nikolic",
+      "email": "anikolic@mail.com",
+      "phone": "23421823",
+      "associategroup": "level3",
+      "address": "Adresa 235",
+      "type": "SUPPLIER",
+      "status": false
+    },
+    {
+      "id": 11,
+      "name": "Petar Peric",
+      "email": "pperic@mail.com",
+      "phone": "123354345",
+      "associategroup": "level2",
+      "address": "jskdfkjsdf 12",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "name": "Adminuser",
+      "email": "admin@admin.com",
+      "phone": "1234321",
+      "gender": "male",
+      "role": "user",
+      "status": true,
+      "id": 1
+    },
+    {
+      "username": "pera peric",
+      "password": "1234",
+      "name": "Pera Peric",
+      "email": "pperic@mail.com",
+      "phone": "123432534",
+      "gender": "male",
+      "role": "user",
+      "status": true,
+      "id": 2
+    },
+    {
+      "username": "milicacarica",
+      "password": "milica123",
+      "name": "Kamenovka",
+      "email": "milicakamenov@mail.com",
+      "phone": "6969696240",
+      "gender": "female",
+      "role": "user",
+      "status": true,
+      "id": 3
+    },
+    {
+      "username": "nikolanikolic",
+      "password": "1234",
+      "name": "Nikola Nikolic",
+      "email": "nikolan@mail.com",
+      "phone": "1232342324",
+      "gender": "male",
+      "role": "user",
+      "status": true,
+      "id": 4
+    },
+    {
+      "username": "djolegay",
+      "password": "djolegay",
+      "name": "Djole Sulovic",
+      "email": "djolesul@mail.com",
+      "phone": "1232435353",
+      "gender": "male",
+      "role": "user",
+      "status": true,
+      "id": 5
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "Name": "Admin"
+    },
+    {
+      "code": "manager",
+      "Name": "Manager"
+    },
+    {
+      "code": "user",
+      "Name": "User"
+    }
+  ],
+  "menu": [
+    {
+      "code": "associate",
+      "Name": "Associate"
+    },
+    {
+      "code": "customer",
+      "Name": "Customer"
+    },
+    {
+      "code": "user",
+      "Name": "User"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "associate"
+    },
+    {
+      "role": "admin",
+      "menu": "customer"
+    },
+    {
+      "role": "admin",
+      "menu": "user"
+    },
+    {
+      "role": "manager",
+      "menu": "associate"
+    },
+    {
+      "role": "manager",
+      "menu": "customer"
+    },
+    {
+      "role": "manager",
+      "menu": "customer"
+    },
+    {
+      "role": "user",
+      "menu": "associate"
+    }
+  ]
+}
